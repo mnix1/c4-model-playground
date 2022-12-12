@@ -1,0 +1,9 @@
+version: '3'
+services:
+  structurizr:
+    image: structurizr/lite:2876
+    container_name: structurizr
+    ports:
+      - "11111:8080"
+    volumes:
+      - ./workspace.json:/usr/local/structurizr/workspace.json

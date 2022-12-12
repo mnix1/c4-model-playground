@@ -1,0 +1,85 @@
+{
+  "id" : 1,
+  "name" : "Getting Started",
+  "description" : "This is a model of my software system.",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-12-12T21:07:01Z",
+  "lastModifiedAgent" : "structurizr-web/2876/diagram",
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Customer",
+      "description" : "A customer of a shop.",
+      "relationships" : [ {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Buys products"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "Artist",
+      "description" : "A content creator.",
+      "relationships" : [ {
+        "id" : "5",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Uploads images"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "Software System",
+      "description" : "My software system.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "3",
+      "description" : "An example of a System Context diagram.",
+      "key" : "SystemContext",
+      "order" : 1,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1616,
+        "height" : 1316
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 958,
+        "y" : 208
+      }, {
+        "id" : "3",
+        "x" : 583,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "5"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "terminology" : { },
+      "lastSavedView" : "SystemContext"
+    }
+  }
+}
